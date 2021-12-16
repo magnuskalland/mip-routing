@@ -7,11 +7,10 @@ A set of applications that implements link, network layer and application layer 
 3. Open the mininet shells with `xterm A B C D E`
 4. In all shells, run daemons with `./mip_daemon [-h] [-d] <socket_upper> <mip_address>`
 5. In all shells, run routing daemons with `./routing_daemon <socket_lower> <mip_address>`
-
-**Note that the MIP address of each host must correspond, e.g. run daemon and routing daemon with the same address**
-
 6. In desired client shells, run `./ping_client [-h] <dest_host> <message> <socket_lower>`
 7. In desired server shells, run `./ping_server [-h] <socket_lower>`
+
+**Note that the MIP address of each host must correspond, e.g. run daemon and routing daemon with the same address**
 
 Alternatively, you can run the script `run.sh` and then the make rules for running in each shell, e.g.
 1. `sudo bash ./run.sh`
