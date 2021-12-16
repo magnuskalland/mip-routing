@@ -9,6 +9,7 @@ A set of applications that implements link, network layer and application layer 
 5. In all shells, run routing daemons with `./routing_daemon <socket_lower> <mip_address>`
 
 **Note that the MIP address of each host must correspond, e.g. run daemon and routing daemon with the same address**
+
 6. In desired client shells, run `./ping_client [-h] <dest_host> <message> <socket_lower>`
 7. In desired server shells, run `./ping_server [-h] <socket_lower>`
 
